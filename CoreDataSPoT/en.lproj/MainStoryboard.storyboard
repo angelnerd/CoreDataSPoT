@@ -50,7 +50,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vg1-Zg-xSZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="167" y="29"/>
+            <point key="canvasLocation" x="471" y="-587"/>
         </scene>
         <!--RecentsCDTVC - Recents-->
         <scene sceneID="5sx-vt-z7q">
@@ -91,7 +91,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jcD-bj-oCQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182" y="794"/>
+            <point key="canvasLocation" x="486" y="178"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CVN-iP-Xpf">
@@ -107,7 +107,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xRt-0p-ie6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-352" y="794"/>
+            <point key="canvasLocation" x="-55" y="190"/>
         </scene>
         <!--Photos By TagCDTVC-->
         <scene sceneID="tsz-sl-Oxi">
@@ -152,7 +152,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eVz-la-hj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="662" y="24"/>
+            <point key="canvasLocation" x="966" y="-592"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="Rl7-6y-paA">
@@ -183,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eVE-yf-RSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1201" y="578"/>
+            <point key="canvasLocation" x="1505" y="-38"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="AaT-DS-T0r">
@@ -202,7 +202,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="beS-rY-oe0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1212" y="318"/>
+            <point key="canvasLocation" x="-908" y="-298"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AJG-3z-N1i">
@@ -221,15 +221,50 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dlO-9t-k0a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-359" y="29"/>
+            <point key="canvasLocation" x="-55" y="-587"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="CoreDataTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CoreDataTableViewController.h"/>
+        </class>
+        <class className="FeaturedCDTVC" superclassName="TagsCDTVC">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FeaturedCDTVC.h"/>
+        </class>
+        <class className="ImageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ImageViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="noPhotoLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="titleBarButtonItem" candidateClass="UIBarButtonItem"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PhotoCDTVC" superclassName="CoreDataTableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PhotoCDTVC.h"/>
+        </class>
+        <class className="PhotosByTagCDTVC" superclassName="PhotoCDTVC">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PhotosByTagCDTVC.h"/>
+        </class>
+        <class className="RecentsCDTVC" superclassName="PhotoCDTVC">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RecentsCDTVC.h"/>
+        </class>
+        <class className="TagsCDTVC" superclassName="CoreDataTableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TagsCDTVC.h"/>
+        </class>
+        <class className="UIRefreshControl" superclassName="UIControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIRefreshControl.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="IZX-wo-Byf"/>
+        <segue reference="aAL-N2-0hA"/>
     </inferredMetricsTieBreakers>
 </document>

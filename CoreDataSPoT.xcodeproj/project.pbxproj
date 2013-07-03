@@ -31,9 +31,11 @@
 		0B4C33CD17440DDD00138299 /* RecentsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4C33CC17440DDC00138299 /* RecentsCDTVC.m */; };
 		0B4C33D017440E3300138299 /* PhotosByTagCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4C33CF17440E3300138299 /* PhotosByTagCDTVC.m */; };
 		0B4C33D1174415BC00138299 /* FeaturedCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4C33C917440AD900138299 /* FeaturedCDTVC.m */; };
+		0B6C8886178231B700C5A73E /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C8885178231B700C5A73E /* iPadStoryboard.storyboard */; };
 		0BB4C828174159110029123B /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4C827174159110029123B /* FeaturedViewController.m */; };
 		0BB4C82A17415DAA0029123B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB4C82917415DAA0029123B /* CoreData.framework */; };
 		0BB4C82D17415FA70029123B /* PhotosByTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4C82C17415FA70029123B /* PhotosByTagViewController.m */; };
+		0BC7A8DD178358E9000CA546 /* MasterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7A8DC178358E9000CA546 /* MasterTabBarController.m */; };
 		0BCA6D561742ED8E0027D278 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA6D551742ED8E0027D278 /* Photo.m */; };
 		0BCA6D591742ED8E0027D278 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA6D581742ED8E0027D278 /* Tag.m */; };
 		0BCA6D5C1742F0FE0027D278 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA6D5B1742F0FE0027D278 /* ImageViewController.m */; };
@@ -84,11 +86,14 @@
 		0B4C33CC17440DDC00138299 /* RecentsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsCDTVC.m; sourceTree = "<group>"; };
 		0B4C33CE17440E3300138299 /* PhotosByTagCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosByTagCDTVC.h; sourceTree = "<group>"; };
 		0B4C33CF17440E3300138299 /* PhotosByTagCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosByTagCDTVC.m; sourceTree = "<group>"; };
+		0B6C8885178231B700C5A73E /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPadStoryboard.storyboard; sourceTree = "<group>"; };
 		0BB4C826174159110029123B /* FeaturedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturedViewController.h; sourceTree = "<group>"; };
 		0BB4C827174159110029123B /* FeaturedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedViewController.m; sourceTree = "<group>"; };
 		0BB4C82917415DAA0029123B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0BB4C82B17415FA70029123B /* PhotosByTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosByTagViewController.h; sourceTree = "<group>"; };
 		0BB4C82C17415FA70029123B /* PhotosByTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosByTagViewController.m; sourceTree = "<group>"; };
+		0BC7A8DB178358E9000CA546 /* MasterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTabBarController.h; sourceTree = "<group>"; };
+		0BC7A8DC178358E9000CA546 /* MasterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTabBarController.m; sourceTree = "<group>"; };
 		0BCA6D541742ED8E0027D278 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		0BCA6D551742ED8E0027D278 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		0BCA6D571742ED8E0027D278 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
@@ -148,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				0B4547B2173D832D00113A34 /* MainStoryboard.storyboard */,
+				0B6C8885178231B700C5A73E /* iPadStoryboard.storyboard */,
 				0B4C33C417440A9100138299 /* Tag Views */,
 				0B4C33C01744055200138299 /* Photo Views */,
 				0B4C33BD1743F54900138299 /* DBObject.h */,
@@ -156,6 +162,8 @@
 				0B4547B6173D832D00113A34 /* ViewController.m */,
 				0B4547D9173DB50A00113A34 /* TagViewController.h */,
 				0B4547DA173DB50A00113A34 /* TagViewController.m */,
+				0BC7A8DB178358E9000CA546 /* MasterTabBarController.h */,
+				0BC7A8DC178358E9000CA546 /* MasterTabBarController.m */,
 				0B4547D3173DB4A400113A34 /* AttributedStringViewController.h */,
 				0B4547D4173DB4A400113A34 /* AttributedStringViewController.m */,
 				0BB4C826174159110029123B /* FeaturedViewController.h */,
@@ -299,6 +307,7 @@
 				0B4547AF173D832D00113A34 /* Default@2x.png in Resources */,
 				0B4547B1173D832D00113A34 /* Default-568h@2x.png in Resources */,
 				0B4547B4173D832D00113A34 /* MainStoryboard.storyboard in Resources */,
+				0B6C8886178231B700C5A73E /* iPadStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +341,7 @@
 				0B4C33C717440AB300138299 /* TagsCDTVC.m in Sources */,
 				0B4C33CD17440DDD00138299 /* RecentsCDTVC.m in Sources */,
 				0B4C33D017440E3300138299 /* PhotosByTagCDTVC.m in Sources */,
+				0BC7A8DD178358E9000CA546 /* MasterTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +429,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataSPoT/CoreDataSPoT-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataSPoT/CoreDataSPoT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -430,7 +442,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataSPoT/CoreDataSPoT-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataSPoT/CoreDataSPoT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

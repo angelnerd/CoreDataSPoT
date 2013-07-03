@@ -14,6 +14,8 @@
 @property (nonatomic, strong) Photo *photo;
 @property (nonatomic, strong) NSURL *imageURL;
 @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (nonatomic, strong) UIBarButtonItem *splitViewBarButtonItem;
+@property (nonatomic, weak) IBOutlet UIToolbar *toolbar;
 
 - (void)setPhoto:(Photo *)photo;
 - (void)setImageURL:(NSURL *)imageURL;
